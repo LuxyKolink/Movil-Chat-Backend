@@ -4,7 +4,7 @@
 
 **Description:**
 
-This repository shares the code of the backend service used in a login application with biometric data.
+This repository shares the code of the backend service used in a chat application with push notifications.
 
 ### Academic Honesty
 
