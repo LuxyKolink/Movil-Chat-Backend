@@ -1,4 +1,4 @@
-# "Backend Service for login app with biometrics"
+# "Backend Service for chat app with push notifications"
 
 ✅ [Based on Dave Gray's tutorials](https://www.youtube.com/DaveGrayTeachesCode).
 

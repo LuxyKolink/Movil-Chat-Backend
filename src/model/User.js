@@ -6,13 +6,13 @@ const getUsers = async (req, res) => {
 };
 
 const getUserById = async (req, res) => {
-    const id = parseInt(req.params.id);
+    const { id } = req.body;
     const result = await client.query("SELECT * FROM users WHERE id = $1", [id]);
     res.json(result.rows);
 };
 
 const getUserByEmail = async (req, res) => { 
-    const email = req.params.email;
+    const { email } = req.body;
     const result = await client.query("SELECT * FROM users WHERE email = $1", [email]);
     res.json(result.rows);
 };

@@ -4,7 +4,7 @@ import 'dotenv/config';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 
-import userRouter from './routes/users.js'
+// import userRouter from './routes/api/users.js'
 
 import authRouter from './routes/auth.js';
 import logoutRouter from './routes/logout.js';
@@ -27,7 +27,7 @@ app.use(express.json());
 
 app.use(cookieParser());
 
-app.use('/', userRouter);
+// app.use('/', userRouter);
 
 app.use('/register', registerRouter);
 app.use('/auth', authRouter);

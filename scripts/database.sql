@@ -11,10 +11,10 @@ CREATE TABLE users (
     roles_user INT DEFAULT 2001,
     roles_editor INT,
     roles_admin INT,
-    password VARCHAR(20) NOT NULL,
+    password TEXT NOT NULL,
     jobTitle VARCHAR(50),
-    refreshToken VARCHAR(50),
-    fcmToken VARCHAR(50)
+    refreshToken TEXT,
+    fcmToken TEXT
 );
 
 
